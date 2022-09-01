@@ -1,0 +1,60 @@
+/* SELECTORES */
+
+/* 
+    Selectores Simples
+        Selectores Elementales
+            Selector Universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta.
+        Selectores de Atributo
+            id -> El id del elemento. No es recomendable usarlo para estilos.
+            clase -> La clase del elemento. Es el que se recomienda utilizar.
+            otros atributos. 
+                [atributo]
+                [atributo=valor]
+                [atributo]
+    Selectores Compuestos
+        Selectores Agrupados
+        Selectores Combinadores
+        Pseudoclases - Pseudoelementos
+*/
+
+/* Elementals
+*{
+    background-color: lightcoral;
+}
+
+h1{
+    background-color: lightcyan;
+}
+p{
+    background-color: lightgreen;
+}
+ul{
+    background-color: lightskyblue;
+}
+li{
+    background-color: indianred;
+} */
+
+/* Atributos 
+   id         
+#title{
+    background-color: lightgreen;
+}
+clases
+.title{
+    background-color: lightsalmon;
+}
+
+.text {
+    background-color: lightblue;
+} */
+
+[href]{
+    background-color: mediumorchid;
+}
+
+[href="https://google.com"]{
+    background-color: orangered;
+}
+
