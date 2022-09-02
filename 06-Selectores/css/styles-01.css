@@ -19,32 +19,63 @@
     Selectores Compuestos
         Selectores Agrupados
         Selectores Combinadores
-            - Selector descendiente = Seleccionar hijos. Aunque está permitido, no se recomienda bajar más de un nivel, o sea poner más de dos elementos.
-            - Selector hermano siguiente
-            - Selector de todos los hermanos siguientes
-                No se recomienda bajar más de un nivel, o sea poner más de dos elementos.
-
         Pseudoclases - Pseudoelementos
 */
-/* Selectores Agrupados
-.text,
-.text-2,
-.text-3,
-.text-4{
-    background-color: lightblue;
-}
-*/
 
-/* Selectores descendientes */
+/* Elementals
+*{
+    background-color: lightcoral;
+}
 
-div .title-2{
-    background-color: teal;
+h1{
+    background-color: lightcyan;
 }
-/* Selector hermano siguiente */
-.text-2 + .title-2 {
-    background-color: tomato;
+p{
+    background-color: lightgreen;
 }
-/* Selector de todos los hermanos siguientes */
-.text-2 ~ p{
+ul{
+    background-color: lightskyblue;
+}
+li{
+    background-color: indianred;
+} */
+
+/* Atributos 
+   id         
+#title{
+    background-color: lightgreen;
+}
+clases
+.title{
+    background-color: lightsalmon;
+}
+
+.text {
     background-color: lightblue;
+} */
+
+[href]{
+    background-color: mediumorchid;
 }
+
+[href="https://google.com"]{
+    background-color: orangered;
+}
+
+[href^="color"]{
+    background-color: red;
+}
+
+[href*="modo"]{
+    background-color: green;
+}
+
+[href$="azul"]{
+    background-color: steelblue;
+}
+
+[lang|="en"]{
+    background-color: lightcoral;
+}
+
+
