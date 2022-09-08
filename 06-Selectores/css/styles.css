@@ -20,12 +20,20 @@
         Selectores Agrupados
         Selectores Combinadores
             - Selector descendiente = Seleccionar hijos. Aunque está permitido, no se recomienda bajar más de un nivel, o sea poner más de dos elementos.
-            - Selector hermano siguiente
-            - Selector de todos los hermanos siguientes
+            - Selector hermano siguiente "+"
+            - Selector de todos los hermanos siguientes "~"
                 No se recomienda bajar más de un nivel, o sea poner más de dos elementos.
+            - Selector de hijo directo ">" 
 
         Pseudoclases - Pseudoelementos
 */
+
+/* Selector de hijo directo */
+.container > p{
+    background-color: tomato;
+}
+
+
 /* Selectores Agrupados
 .text,
 .text-2,
@@ -35,16 +43,16 @@
 }
 */
 
-/* Selectores descendientes */
+/* Selectores descendientes 
 
 div .title-2{
     background-color: teal;
-}
-/* Selector hermano siguiente */
+}*/
+/* Selector hermano siguiente 
 .text-2 + .title-2 {
     background-color: tomato;
-}
-/* Selector de todos los hermanos siguientes */
+}*/
+/* Selector de todos los hermanos siguientes
 .text-2 ~ p{
     background-color: lightblue;
-}
+} */
